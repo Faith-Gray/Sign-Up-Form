@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.container {
+    display: flex;
+/*     display: grid;
+    grid-template-columns: 50%, auto; */
+    height: 100vh;
+}
+
+.left {
+    width: 40vw;
+}
+
+
+.right {
+    width: 60vw;
+    background-color: rgba(20,3,21,255); 
+   
+}
+
+.man {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.title {
+    color: #e100be;
+    text-align: center;
+    padding-top: 55px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 5em;
+}
+
+.paragraph {
+    padding: 50px;
+    color: #e100be;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+form {
+    padding: 50px;
+    color: #e100be;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    flex-flow: column nowrap;
+
+}
+
+.input{
+    text-align: left;
+    width: auto;
+    font-size: 0.9em;
+    justify-content: center;
+    align-items: center;
+}
+
+.button,
+.log-in{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+button{
+    width: 200px;
+}
